@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ApiGateway/ApiGateway.iml" filepath="$PROJECT_DIR$/ApiGateway/ApiGateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EmailServer/EmailServer.iml" filepath="$PROJECT_DIR$/EmailServer/EmailServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EurekaServer/EurekaServer.iml" filepath="$PROJECT_DIR$/EurekaServer/EurekaServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FeignClients/FeignClients.iml" filepath="$PROJECT_DIR$/FeignClients/FeignClients.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ProductReviewServer/ProductReviewServer.iml" filepath="$PROJECT_DIR$/ProductReviewServer/ProductReviewServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ProductServer/ProductServer.iml" filepath="$PROJECT_DIR$/ProductServer/ProductServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UPG-MS-App.iml" filepath="$PROJECT_DIR$/UPG-MS-App.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UserServer/UserServer.iml" filepath="$PROJECT_DIR$/UserServer/UserServer.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="EurekaServer" />
+        <module name="EmailServer" />
+        <module name="ProductReviewServer" />
+        <module name="UserServer" />
+        <module name="FeignClients" />
+        <module name="ProductServer" />
+        <module name="ApiGateway" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ApiGateway" target="1.5" />
+      <module name="EmailServer" target="17" />
+      <module name="EurekaServer" target="1.5" />
+      <module name="FeignClients" target="17" />
+      <module name="ProductReviewServer" target="17" />
+      <module name="ProductServer" target="1.5" />
+      <module name="UPG-MS-App" target="1.5" />
+      <module name="UserServer" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ApiGateway" options="" />
+      <module name="EmailServer" options="" />
+      <module name="EurekaServer" options="" />
+      <module name="FeignClients" options="" />
+      <module name="ProductReviewServer" options="" />
+      <module name="ProductServer" options="" />
+      <module name="UPG-MS-App" options="-parameters" />
+      <module name="UserServer" options="" />
+    </option>
+  </component>
+</project>

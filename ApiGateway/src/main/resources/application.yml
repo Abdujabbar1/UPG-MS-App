@@ -1,0 +1,25 @@
+server:
+  port: 8086
+spring:
+  application:
+    name: ApiGateway
+  cloud:
+    gateway:
+      routes:
+        - id: user-service
+          uri: lb://user-service
+          predicates:
+            - Path=/api/user-service/**
+        - id: product-service
+          uri: lb://product-service
+          predicates:
+            - Path=/api/product-service/**
+        - id: product-review-service
+          uri: lb://product-review-service
+          predicates:
+             - Path=/api/product-review-service/**
+
+eureka:
+  client:
+    service-url:
+      defoultZone: http://localcost:8761/eureka
